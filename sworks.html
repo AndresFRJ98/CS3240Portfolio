@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Andres Rojas Portfolio</title>
+  <meta name="description" content="Portfolio for Andres Rojas CS3240.">
+  <meta name="author" content="Andres Rojas">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+  
+   <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<header class="main_nav green" id="myHeader">
+	<div class="container">
+		<div class="twelve columns">
+			<div class="logo"><a href="home.html" id="click">Andres Rojas - CS3240 Portfolio</a></div>
+		</div>
+	</div>
+</header>
+<div style="background: #E5FFFE">  
+<div class="container" >
+    <div class="twelve columns row">
+        <h1 style="text-align: center; text-decoration: underline;">Sworks - Design Pieces</h1>
+    </div>
+
+    <div class="post">
+        <p>This article documents some of my work for my CS3240 group project: Sworks. Sworks is essentially an e-commerce website, designed for university freelancers to get in touch with their fellow university colleagues that are in need of services. In this article I will cover:</p>
+        <ul>
+            <li>User Study</li>
+            <li>Personas</li>
+            <li>Screen Flow design + mockups</li>
+        </ul>        
+        <br><hr>
+        <h3>Defining our users</h3>
+    </div>
+    <div class="row">
+
+            <p>
+                    <p>After brainstorming and getting a general idea of what we wanted our project to be, we had to bring our ideas into a more concrete plan. We decided that one way to do this is to actually interview students that are either freelancers or have used freelancing service previously. A transcribed copy of the interviews can be found <a href="resources/Interviews.pdf" target="_blank"> here </a>. </p>
+                    <p> Additionally, we sent out surveys that reached around 80 students to know more about the demand for this kind of application, as well as interests of people form different backgrounds. A copy of results can be seen <a href="resources/SurveyResults.pdf" target="_blank">here</a>.   From the two of these, we managed to pinpoint a couple of key ideas that helped us understand what features clients want, and what features freelancers want:</p>
+            </p>
+        <div class="six columns">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Freelancers Want</th>
+                        <th>Designed Feature</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ways to build a following and stand out from the rest</td>
+                        <td>Social media integration, user reviews and customizable profiles which allows to showcase their work.</td>
+                    </tr>
+                    <tr>
+                        <td>Centralized communication with clients</td>
+                        <td>Offer possiblity of chat through website</td>
+                    </tr>
+                    <tr>
+                        <td>Finding local clients for when they recieve no offers</td>
+                        <td>Allow clients to post jobs publicaly, so a freelancer can look up open jobs and work for them.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="five columns">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Clients Want</th>
+                            <th>Designed Feature</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ways to know if a freelancer can be trusted</td>
+                            <td>User reviews, report function to report scammers, make a qualifications section for the freelancers as a required section to fill.</td>
+                        </tr>
+                        <tr>
+                            <td>Centralized communication with clients</td>
+                            <td>Offer possiblity of chat through website</td>
+                        </tr>
+                        <tr>
+                            <td>Ability to pay both through cash or through the website</td>
+                            <td>Jobs can be marked as finished when both parties agree OR a payment has gone through.</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+    </div>
+   
+    <hr>
+    <h3>Personas</h3>
+    <div class="row">
+        <p>Following this user study exercise, I sketched out some example personas we could use as examples for the user base of our service.</p>
+
+        <div class="five columns">
+            <a class="image-link" href="images/works2.png">
+                <img src="images/works2.png">
+            </a>
+        </div>
+        <div class="five columns">
+            <a class="image-link" href="images/works3.png">
+                <img src="images/works3.png">
+            </a>
+        </div>
+    </div>
+    
+    Additionally, we sat down and talked about the user journey's for both the consumer and the freelancer. We identified different "moments of truth" (indicated with a *) for each of them, what kind of experiences they could have for tasks they can do and broke down actions into different sections. These can be seen below:
+    <div class="row">
+    
+    <h4 style="font-size:1.4em;">User Map task identifcation</h4>
+    <div class="five columns">
+        <a class="image-link" href="images/usermap.jpg">
+            <img src="images/usermap.jpg">
+        </a>
+    </div>
+    <div class="five columns">
+        <a class="image-link" href="images/usermap2.jpg">
+            <img src="images/usermap2.jpg">
+        </a>
+    </div>
+        
+    </div>
+
+    <hr>
+    <h3> Screen / Website Design</h3>
+    
+        <h4 style="font-size:1.4em;">Initial Prototype</h4>
+    <div class="row">
+            <div class="four columns">
+            <a href="images/Page_1.png" class="image-link"><img src="images/Page_1.png"></a>    
+    </div>
+        <div class="eight columns">
+                <p>
+                    For my first intial prototype, I turned to the online prototyping tool called MockFlow. Here I decided to quickly wireframe how some of the "key" pages of our product might look like, in order to then meet with my team and discuss our different ideas. I wireframed two main pages: the home page and a freelancers page. I experimented with a sidebar navigation approach for these, sa I thought it would be interesting to discuss why to choose (or not) this navigation instead of the usual top navigation seen in most sites. 
+                    <br>
+                    In the homepage, I decided to go for a simplistic design that quickly directs users to what they want to do: they either want to find freelancers, or become a freelancer on our platform. I made a rough log-in / sign up window mainly to showcase how to efficiently deal with two different tasks in the same menu option. 
+                    <br><br>
+                    In the second iteration of the homepage, we can see I use a way more dense side nav bar, as I considered that it could be used as a sort of dashboard to quickly jump from task to task quickly and efficiently. The rest of the page still looks the same. 
+                    <br><br>
+                </p>
+        </div>
+    </div>
+    <div class="row">
+        <p>                    Finally, the profile page helps to see how a client can quickly read up on a specific freelancer, and to see if they are trustworthy or not. Including metrics like user reviews, the option to report the profile, and a carousel with example works are ideas I previously thought about (as documented above) and I believe all fit well in this design. Additionally, I include a quick sketch of how in-app messaging could look like: heavily inspired by applications like Uber or Airbnb I believe the website should be complete, and not delegate important tasks like communication to third parties (e.g email). All the key actions between the users must happen here, which is why I chose to add this sketch to my designs. 
+            </p>
+        <div class="five columns">
+            <a href="images/Page_2.png" class="image-link"><img src="images/Page_2.png"></a>
+        </div>
+        <div class="six columns">
+                <a href="images/Page_3.png" class="image-link"><img src="images/Page_3.png"></a> 
+        </div>
+    </div>
+    <br><hr>
+    <h3> Screen / Website Design</h3>
+
+    <div class="row">
+        <p>
+            Eventually, our team all discussed our different ideas and designed and settled for a couple of key concepts: simplistic design, clearly differntiate between client and freelancer pages, and to maintain a clean grid layout. 
+            <br><br>Below are some of the interactive prototype screens which helped us evaluate how well a user manages to search freelancers through a specific skill (i.e graphic design), and to switch between finding freelancers and finding jobs. 
+        </p>
+        <div class="five columns">        <a href="images/sworks-3.png" class="image-link"><img src="images/sworks-3.png"></a> 
+        </div>
+        <div class="five columns">        <a href="images/sworks-2.png" class="image-link"><img src="images/sworks-2.png"></a>
+             
+        </div>
+
+    </div>
+    <div class="row">
+            <p> Through these screens, the interactive prototype emulates the task of searching for freelancers through a specific skill, as seen in the filter dropdown that shows up on the second image (top right).</p>
+            <p> Finally, it can also be appreciated that we have designed the switch between client and freelancer searches to be quick and efficient, in the same screen by simply toggling a switch. The use of different colour keys helps the user also immediately notice that he is using either a client or freelancer search. </p>
+            <div class="five columns">        <a href="images/sworks-1.png" class="image-link"><img src="images/sworks-1.png"></a>  </div>
+            <div class="five columns">        <a href="images/sworks-4.png" class="image-link"><img src="images/sworks-4.png"></a> </div>
+
+    </div>
+    
+
+</div>
+<hr>
+<footer>
+	<div class="container">
+		<div class="row twelve columns">
+			<ul class="social">
+			<li class="linkedin"><a href="https://www.linkedin.com/in/andres-rojas-jaramillo-aba26913a"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+			</ul>
+		</div>
+		<div class="row twelve columns">
+			<p class="copyright">&copy; 2018 Andres Rojas. All Rights Reserved.</p>
+		</div>
+	</div>
+</footer>
+</div>  
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="scripts/jquery.magnific-popup.js"></script>
+  <script type="text/javascript">
+	 $('.image-link').magnificPopup({ 
+  type: 'image',
+  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+  zoom: {
+    enabled: true, // By default it's false, so don't forget to enable it
+
+    duration: 300, // duration of the effect, in milliseconds
+    easing: 'ease-in-out', // CSS transition easing function 
+
+    // The "opener" function should return the element from which popup will be zoomed in
+    // and to which popup will be scaled down
+    // By defailt it looks for an image tag:
+    opener: function(openerElement) {
+      // openerElement is the element on which popup was initialized, in this case its <a> tag
+      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+      return openerElement.is('img') ? openerElement : openerElement.find('img');
+    }
+  }
+
+});	</script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function (){
+			$("#click").click(function (){
+				$('html, body').animate({
+					scrollTop: $("#aboutMe").offset().top
+				}, 600);
+			});
+		});
+	</script>
+
+	<script>
+		// When the user scrolls the page, execute myFunction 
+		window.onscroll = function() {myFunction()};
+
+		// Get the header
+		var header = document.getElementById("myHeader");
+
+		// Get the offset position of the navbar
+		var sticky = header.offsetTop;
+
+		// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+		function myFunction() {
+		if (window.pageYOffset > sticky) {
+			header.classList.add("sticky");
+		} else {
+			header.classList.remove("sticky");
+		}
+		}
+	</script>
+</body>
+</html>
